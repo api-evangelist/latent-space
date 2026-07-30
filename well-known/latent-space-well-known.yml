@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probe of the Latent Space company domain
+host: https://www.latentspace.co
+note: >-
+  Every path probed on latentspace.co (apex and www) returns HTTP 302 to
+  https://x.com/latentspaceai. The domain is configured as a blanket redirect to
+  the company X/Twitter profile, so no /.well-known/ discovery documents are
+  served. No documents returned 200, therefore no raw files were saved.
+documents:
+- path: /.well-known/security.txt
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+- path: /.well-known/openid-configuration
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+- path: /.well-known/oauth-authorization-server
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+- path: /.well-known/api-catalog
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+- path: /.well-known/ai-plugin.json
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+- path: /llms.txt
+  status: 302
+  redirect_to: https://x.com/latentspaceai
+subdomains_probed:
+- {host: docs.latentspace.co, dns: null, status: null}
+- {host: api.latentspace.co, dns: null, status: null}
+- {host: developer.latentspace.co, dns: null, status: null}
+- {host: app.latentspace.co, dns: null, status: null}
+- {host: blog.latentspace.co, dns: null, status: null}
+- {host: status.latentspace.co, dns: null, status: null}
