@@ -1,21 +1,79 @@
 aid: latent-space
 name: Latent Space
-description: Latent Space is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Latent Space is an artificial intelligence company building generative
+  models for businesses and creatives, described by General Catalyst as creating "AI
+  technology for predictive analytics and data-driven insights." The company raised
+  a Series A from Greylock and General Catalyst and is listed in the General Catalyst
+  portfolio under the Artificial Intelligence industry in North America. As of a July
+  2026 probe, Latent Space publishes no developer surface: the company domain
+  latentspace.co returns an HTTP 302 redirect to its X/Twitter profile for every path
+  probed, no docs/api/developer/app/status subdomains resolve in DNS, there are no
+  /.well-known/ discovery documents, no llms.txt, and no public repositories under
+  its GitHub organization. This profile therefore records verified company identity
+  and domain posture only — no API, SDK, or documentation artifacts exist to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/latent-space/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pbs.twimg.com/profile_images/1168960746237112320/hUVM_19-_400x400.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- greylock
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-developer-surface
+x-enrichment:
+  last_run: '2026-07-19'
+  outcome: identity-verified-no-api-surface
+  evidence:
+  - https://www.generalcatalyst.com/companies/latent-space
+  - https://x.com/latentspaceai
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Machine Learning
+- Predictive Analytics
+- Venture Backed
+- North America
 apis: []
+common:
+- url: https://www.latentspace.co/
+  type: Website
+  name: Latent Space website (302 redirects to X/Twitter as of 2026-07-19)
+- url: https://x.com/latentspaceai
+  type: Twitter
+  name: Latent Space on X
+- url: https://www.linkedin.com/company/latentspaceai/
+  type: LinkedIn
+  name: Latent Space on LinkedIn
+- url: https://github.com/latentspaceai
+  type: GitHubOrganization
+  name: Latent Space GitHub organization (no public repositories)
+- url: https://www.generalcatalyst.com/companies/latent-space
+  type: Investors
+  name: General Catalyst portfolio profile
+- url: security/latent-space-domain-security.yml
+  type: DomainSecurity
+  name: Domain and TLS security posture
+- url: well-known/latent-space-well-known.yml
+  type: WellKnown
+  name: Well-known discovery probe results
+- url: llms/latent-space-llms.txt
+  type: LLMsTxt
+  name: llms.txt for Latent Space
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
