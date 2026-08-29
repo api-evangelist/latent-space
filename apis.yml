@@ -12,6 +12,17 @@ description: 'Latent Space is an artificial intelligence company building genera
   its GitHub organization. This profile therefore records verified company identity
   and domain posture only — no API, SDK, or documentation artifacts exist to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/latent-space/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
