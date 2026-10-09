@@ -1,0 +1,30 @@
+# Front Door AI Index — latent-space — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: latent-space
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: www.latentspace.co
+  final_host: x.com
+  ownership: own
+  owner: latent-space
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 3
+  band: 3
+  band_label: light
+  host_score: 3
+  density: 8.98
+  words: 334
+  tiers:
+    agentic: 1
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    LLMs: 1
+    ML: 1
+    prompts: 1
