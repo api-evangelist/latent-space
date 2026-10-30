@@ -64,31 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Latent Space is an artificial intelligence company building generative models for
-businesses and creatives. General Catalyst describes it as creating "AI technology
-for predictive analytics and data-driven insights." The company raised a Series A
-from Greylock and General Catalyst.
+Latent Space is an artificial intelligence company building generative models for businesses and creatives, described by General Catalyst as creating "AI technology for predictive analytics and data-driven insights." The company raised a Series A from Greylock and General Catalyst and is listed in the General Catalyst portfolio under the Artificial Intelligence industry in North America. As of a July 2026 probe, Latent Space publishes no developer surface: the company domain latentspace.co returns an HTTP 302 redirect to its X/Twitter profile for every path probed, no docs/api/developer/app/status subdomains resolve in DNS, there are no /.well-known/ discovery documents, no llms.txt, and no public repositories under its GitHub organization. This profile therefore records verified company identity and domain posture only — no API, SDK, or documentation artifacts exist to harvest.
 
-Backed by: general-catalyst, greylock
+**Areas:** Company · Artificial Intelligence · Generative AI · Machine Learning · Predictive Analytics · North America
 
-## Enrichment status (2026-07-19)
+## Latent Space on APIs.io
 
-Identity verified; **no public developer surface exists**. Every path on
-`latentspace.co` (apex and www) returns HTTP 302 to `https://x.com/latentspaceai`,
-no `docs`/`api`/`developer`/`app`/`status` subdomains resolve in DNS, no
-`/.well-known/` documents are served, no `llms.txt` is published, and the
-`latentspaceai` GitHub organization has no public repositories.
+Everything profiled for Latent Space is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/latent-space/](https://apis.io/providers/latent-space/)** — or go straight to one of the APIs or properties below.
 
-No API, OpenAPI/AsyncAPI/GraphQL spec, SDK, CLI, MCP server, sandbox, changelog,
-status page, or documentation was found — so the spec-derived artifacts
-(`openapi/`, `mcp/`, `skills/`, `overlays/`, `errors/`, `conventions/`,
-`data-model/`, `scopes/`, `authentication/`) are not applicable rather than missing.
+### Published properties
 
-Artifacts captured:
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `security/latent-space-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC
-- `well-known/latent-space-well-known.yml` — well-known discovery probe results
-- `llms/latent-space-llms.txt` — generated llms.txt
+#### Security (1)
 
-Sources: <https://www.generalcatalyst.com/companies/latent-space>,
-<https://x.com/latentspaceai>
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Latent Space Domain Security](https://apis.io/security/latent-space/latent-space-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.latentspace.co/)
+- [GitHub](https://github.com/latentspaceai)
+
+## API Evangelist rating
+
+**Kin Score 4.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/latent-space/](https://apis.io/providers/latent-space/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Latent Space: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/latent-space/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
